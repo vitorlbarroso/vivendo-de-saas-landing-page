@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+.disabled {
+    display: none;
+}
+
 /*======================= Estilos Redes Sociais =======================*/
 #social-list i {
     color: #4C4C4C;
@@ -23,6 +27,22 @@
     width: 100%;
     height: auto;
     background-color: #4C4C4C;
+}
+
+#close-modal {
+    float: right;
+    right: 0px;
+    top: 0px;
+    margin-top: -15px;
+    margin-right: -15px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    cursor: pointer;
 }
 
 #texts-header {
