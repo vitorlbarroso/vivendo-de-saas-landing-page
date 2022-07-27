@@ -153,6 +153,83 @@
     color: #7c7c7c;
 }
 
+/*======================= Estilos Modal =======================*/
+#modal-form {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.39);
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#background-modal-form {
+    width: 502px;
+    max-width: 97%;
+    height: auto;
+    background-color: white;
+    border: 5px solid rgba(160, 160, 160, 0.945);
+}
+
+#infos-modal {
+    width: 90%;
+    margin: 20px auto;
+}
+
+.header-modal {
+    margin-top: 10px;
+}
+
+#infos-modal .title-header-modal {
+    font-family: 'Lato';
+    font-size: 25px;
+    font-weight: 600;
+    color: #acc4cd;
+}
+
+#infos-modal .info-header-modal {
+    font-family: 'Lato';
+    font-size: 16px;
+    color: #444;
+    float: right;
+    margin-top: 5px;
+}
+
+.form-control {
+    margin-top: 15px;
+    height: 50px;
+    border: 1px solid rgb(202, 202, 202);
+    font-family: 'Lato';
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.btn-modal-form {
+    margin: 10px auto;
+    width: 100%;
+    background-color: #8FC12A;
+    font-family: 'Lato';
+    font-size: 17px;
+    font-weight: 600;
+    color: white;
+    padding: 10px 0;
+}
+
+.btn-modal-form:hover {
+    background-color: #8FC12A;
+    color: white;
+}
+
+#footer-modal {
+    text-align: center;
+    font-size: 14px;
+    color: rgb(158, 158, 158);
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
 /*======================= Estilos Notebook =======================*/
 @media screen and (min-width: 767px) and (max-width: 1061px) {
     /* Estilos Header */

@@ -19,10 +19,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
     
     <!-- CSS -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
     
     <!-- Favicon -->
-    <link rel="shortcut icon" href="assets/img/SEUFAVICON" type="image/x-icon">
+    <link rel="shortcut icon" href="./assets/img/SEUFAVICON" type="image/x-icon">
     
     <!-- Título -->
     <title>Semana do Empreendedor SaaS</title>
@@ -35,7 +35,7 @@
                 <!-- Logomarca -->
                 <section>
                     <a href="/" id="logo-nav" class="d-flex align-items-center px-5 col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
-                        <img src="assets/img/logotipo-vivendo-de-saas.png" alt="Logomarca Vivendo de SaaS">
+                        <img src="./assets/img/logotipo-vivendo-de-saas.png" alt="Logomarca Vivendo de SaaS">
                     </a>
                 </section>
 
@@ -134,5 +134,47 @@
             <p>Vivendo de Saas - Deivison A. Elias 2022</p>
         </article>
     </footer>
+    
+    <!-- Modal da página -->
+    <section id="modal-form" class="">
+        <section id="background-modal-form">
+            <article>
+                <section id="infos-modal">
+                    <header class="header-modal">
+                        <span class="title-header-modal">1° PASSO</span>
+                        <span class="info-header-modal">Preencha os campos abaixo</span>
+                    </header>
+                    
+                    <!-- Formulário Modal -->
+                    <form action="" method="">
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="email" placeholder="Digite seu melhor email">
+                        </div>
+                        <div class="form-group">
+                            <input type="firstname" class="form-control" id="firstname" placeholder="Primeiro Nome">
+                        </div>
+                        <div class="form-group">
+                            <input type="surname" class="form-control" id="surname" placeholder="Sobrenome">
+                        </div>
+                        
+                        <header class="header-modal">
+                            <span class="title-header-modal">2° PASSO</span>
+                            <span class="info-header-modal">Preencha os campos abaixo</span>
+                        </header>
+                        <button type="submit" class="btn btn-modal-form">QUERO ME INSCREVER AGORA!</button>
+                    </form>
+                </section>
+                <section>
+                    <article id="footer-modal">
+                        <i class="fas fa-lock"></i> - 
+                        <span>Suas informações estão seguras.</span>
+                    </article>
+                </section>
+            </article>
+        </section>
+    </section>
+    
+    <!-- Javascript -->
+    <script src="./assets/js/open-modal.js"></script>
 </body>
 </html>
